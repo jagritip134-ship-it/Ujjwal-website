@@ -1,17 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NCR Industrial Automation - Trusted wholesale supplier of OMRON Sensors, NSK Bearings, Casappa Pumps, and Fanuc Fans in Delhi NCR, Bhagirath Palace.">
-    <meta name="keywords" content="OMRON sensor supplier Delhi, NSK bearings dealer NCR, Casappa pump supplier India, Fanuc drive fan Delhi, industrial collets Bhagirath Palace, ferrite ring magnets, wholesale automation parts">
+    <meta name="description" content="NCR Industrial Automation - Premium wholesale supplier of OMRON Sensors, NSK Bearings, Casappa Pumps, and Fanuc Fans in Delhi NCR, Bhagirath Palace.">
+    <meta name="keywords" content="OMRON sensor supplier Delhi, NSK bearings dealer NCR, Casappa pump supplier India, Fanuc drive fan Delhi, industrial automation wholesale">
+    <meta name="author" content="NCR Industrial Automation">
+    <meta name="theme-color" content="#0A192F">
+    
+    <meta property="og:title" content="NCR Industrial Automation | Wholesale Components Supplier">
+    <meta property="og:description" content="Trusted B2B source for industrial sensors, bearings, pumps, and CNC spares in Delhi NCR.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ncrautomation.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NCR Industrial Automation | Wholesale Components Supplier">
+    <meta name="twitter:description" content="Trusted B2B source for industrial sensors, bearings, pumps, and CNC spares in Delhi NCR.">
+
     <title>NCR Industrial Automation | OMRON, NSK, Casappa & Fanuc Parts Supplier Delhi</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" as="style">
+    
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "NCR Industrial Automation",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+      "description": "B2B supplier of industrial electronics, sensors, bearings, and pumps.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Bhagirath Palace Market",
+        "addressLocality": "Delhi NCR",
+        "addressCountry": "IN"
+      },
+      "telephone": "+919876543210"
+    }
+    </script>
 </head>
 <body>
 
@@ -20,317 +52,330 @@
     <header id="navbar">
         <div class="container nav-container">
             <div class="logo">
-                <a href="#">NCR <span>Automation</span></a>
+                <a href="#home">NCR <span>Automation</span></a>
             </div>
+            
+            <nav class="nav-links">
+                <a href="#home" class="nav-item">Home</a>
+                <a href="#about" class="nav-item">About</a>
+                <a href="#products" class="nav-item">Products</a>
+                <a href="#industries" class="nav-item">Industries</a>
+                <a href="#faq" class="nav-item">FAQ</a>
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-outline nav-cta">Contact Us</a>
+            </nav>
+
             <button class="mobile-toggle" aria-label="Toggle Navigation">
                 <i class="fas fa-bars"></i>
             </button>
-            <nav class="nav-links">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#products">Products</a>
-                <a href="#industries">Industries</a>
-                <a href="#faq">FAQ</a>
-                <a href="#contact" class="btn btn-outline">Contact Us</a>
-            </nav>
         </div>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container hero-content css-animate-hero">
-            <h1>Trusted Industrial Automation Components Supplier in Delhi NCR</h1>
-            <p>Your reliable wholesale source for OMRON sensors, Casappa pumps, NSK bearings, and Fanuc CNC spares directly from Bhagirath Palace hub.</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">Request Bulk Quote</a>
-                <a href="#products" class="btn btn-secondary">View Products</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about section-padding">
-        <div class="container">
-            <div class="section-title scroll-fade">
-                <h2>About Us</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="about-grid scroll-fade">
-                <div class="about-text">
-                    <h3>Deep Roots in Delhi's Industrial Hub</h3>
-                    <p>Based in the heart of Delhi NCR with strong ties to the Bhagirath Palace and Chawri Bazar electrical markets, NCR Industrial Automation is a premier B2B supplier of industrial electronics.</p>
-                    <p>We bridge the gap between top-tier manufacturers and local industries, ensuring you receive genuine automation spare parts, competitive wholesale pricing, and rapid fulfillment to minimize your factory downtime.</p>
-                    <ul class="about-list">
-                        <li><i class="fas fa-check-circle"></i> Certified Genuine Components</li>
-                        <li><i class="fas fa-check-circle"></i> Bulk Sourcing Specialists</li>
-                        <li><i class="fas fa-check-circle"></i> Pan-India Dispatch from NCR</li>
-                    </ul>
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content css-animate-hero">
+                <span class="badge">ISO 9001:2015 Certified Partner</span>
+                <h1>Industrial Automation Components Supplier in Delhi NCR</h1>
+                <p>Your reliable wholesale source for OMRON sensors, Casappa pumps, NSK bearings, and Fanuc CNC spares directly from the Bhagirath Palace hub.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Request Bulk Quote</a>
+                    <a href="#products" class="btn btn-secondary">View Catalog</a>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-box">
-                        <i class="fas fa-industry"></i>
-                        <h4>1000+</h4>
-                        <p>Factories Served</p>
+            </div>
+        </section>
+
+        <section class="trust-badges bg-light">
+            <div class="container trust-flex">
+                <div class="trust-item"><i class="fas fa-certificate"></i> 100% Genuine Parts</div>
+                <div class="trust-item"><i class="fas fa-box-open"></i> 10,000+ Ready Stock</div>
+                <div class="trust-item"><i class="fas fa-truck-fast"></i> Pan-India Delivery</div>
+                <div class="trust-item"><i class="fas fa-headset"></i> 24/7 B2B Support</div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="section-title scroll-fade">
+                    <h2>About Us</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-grid scroll-fade">
+                    <div class="about-text">
+                        <h3>Deep Roots in Delhi's Industrial Hub</h3>
+                        <p>Based in the heart of Delhi NCR with strong ties to the Bhagirath Palace and Chawri Bazar electrical markets, NCR Industrial Automation is a premier B2B supplier of industrial electronics.</p>
+                        <p>We bridge the gap between top-tier manufacturers and local industries, ensuring you receive genuine automation spare parts, competitive wholesale pricing, and rapid fulfillment to minimize your factory downtime.</p>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check-circle"></i> Certified Genuine Components</li>
+                            <li><i class="fas fa-check-circle"></i> Bulk Sourcing Specialists</li>
+                            <li><i class="fas fa-check-circle"></i> Pan-India Dispatch from NCR</li>
+                        </ul>
                     </div>
-                    <div class="stat-box">
-                        <i class="fas fa-box-open"></i>
-                        <h4>10k+</h4>
-                        <p>Parts in Stock</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="products" class="products section-padding bg-light">
-        <div class="container">
-            <div class="section-title scroll-fade">
-                <h2>Featured Products</h2>
-                <div class="underline"></div>
-                <p>High-performance automation equipment for uninterrupted manufacturing.</p>
-            </div>
-
-            <div class="search-container scroll-fade" style="max-width: 500px; margin: 0 auto 40px; position: relative;">
-                <i class="fas fa-search" style="position: absolute; left: 15px; top: 14px; color: #6B7280; font-size: 1.1rem;"></i>
-                <input type="text" id="productSearch" placeholder="Search M12, NSK, Pump, Fanuc..." 
-                       style="width: 100%; padding: 12px 15px 12px 45px; border-radius: 8px; border: 2px solid #0A192F; font-size: 1rem; outline: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            </div>
-
-            <div class="product-grid">
-
-                <div class="product-card scroll-fade" data-name="omron proximity sensors m12 plug-in pnp no metal detection">
-                    <h3>OMRON Proximity Sensors</h3>
-                    <ul class="product-specs">
-                        <li><strong>Type:</strong> M12, Plug-in</li>
-                        <li><strong>Output:</strong> PNP NO</li>
-                        <li><strong>Application:</strong> Metal detection</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade delay-1" data-name="casappa pump hydraulic gear pumps industrial coolant pumps">
-                    <h3>Casappa & Industrial Pumps</h3>
-                    <ul class="product-specs">
-                        <li><strong>Brand:</strong> Casappa (Italy)</li>
-                        <li><strong>Type:</strong> Gear & Hydraulic Pumps</li>
-                        <li><strong>Application:</strong> Heavy Machinery</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade delay-2" data-name="nsk bearings fag bearings precision roller ball bearings">
-                    <h3>NSK & FAG Bearings</h3>
-                    <ul class="product-specs">
-                        <li><strong>Brand:</strong> NSK, FAG, SKF</li>
-                        <li><strong>Type:</strong> Precision Ball Bearings</li>
-                        <li><strong>Application:</strong> High-speed Spindles</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade delay-3" data-name="fanuc drive fan sanyo denki cooling fan dc24v cnc spares">
-                    <h3>Fanuc & Cooling Fans</h3>
-                    <ul class="product-specs">
-                        <li><strong>Brand:</strong> Fanuc, Sanyo Denki</li>
-                        <li><strong>Voltage:</strong> DC 24V / 48V</li>
-                        <li><strong>Usage:</strong> CNC Drive Cooling</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade" data-name="industrial collets er16 er25 er32 chuck tooling machine parts">
-                    <h3>Industrial Collets</h3>
-                    <ul class="product-specs">
-                        <li><strong>Types:</strong> ER16, ER25, ER32</li>
-                        <li><strong>Material:</strong> High-Grade Spring Steel</li>
-                        <li><strong>Market:</strong> Chawri Bazar Stock</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade delay-1" data-name="ferrite ring magnets industrial permanent magnets magnetic components">
-                    <h3>Ferrite Ring Magnets</h3>
-                    <ul class="product-specs">
-                        <li><strong>Shape:</strong> Ring, Block, Disk</li>
-                        <li><strong>Grade:</strong> Strong Industrial Ferrite</li>
-                        <li><strong>Usage:</strong> Motors & Sensors</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade delay-2" data-name="plc components modules cpus io communication cables logic control">
-                    <h3>PLC Components</h3>
-                    <ul class="product-specs">
-                        <li><strong>Brand:</strong> OMRON & Global Brands</li>
-                        <li><strong>Quality:</strong> 100% Tested</li>
-                        <li><strong>Application:</strong> Logic Control</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-                <div class="product-card scroll-fade delay-3" data-name="industrial relays contactors solid state electromechanical 24v 415v">
-                    <h3>Relays & Contactors</h3>
-                    <ul class="product-specs">
-                        <li><strong>Voltage:</strong> 24V to 415V</li>
-                        <li><strong>Type:</strong> Solid State / Mech</li>
-                        <li><strong>Usage:</strong> Power Switching</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="why-us" class="why-us section-padding">
-        <div class="container">
-            <div class="section-title scroll-fade">
-                <h2>Why Choose Us</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="features-grid">
-                <div class="feature-item scroll-fade">
-                    <div class="feature-icon-wrapper"><i class="fas fa-shield-alt"></i></div>
-                    <h4>Genuine Products</h4>
-                    <p>We guarantee the authenticity of every sensor, bearing, and pump we supply.</p>
-                </div>
-                <div class="feature-item scroll-fade delay-1">
-                    <div class="feature-icon-wrapper"><i class="fas fa-tags"></i></div>
-                    <h4>Wholesale Pricing</h4>
-                    <p>Leveraging our NCR market network to offer the most competitive B2B rates.</p>
-                </div>
-                <div class="feature-item scroll-fade delay-2">
-                    <div class="feature-icon-wrapper"><i class="fas fa-truck-fast"></i></div>
-                    <h4>Fast Dispatch</h4>
-                    <p>Same-day dispatch available for in-stock items like Fanuc fans and NSK bearings.</p>
-                </div>
-                <div class="feature-item scroll-fade delay-3">
-                    <div class="feature-icon-wrapper"><i class="fas fa-network-wired"></i></div>
-                    <h4>Market Network</h4>
-                    <p>Deep sourcing capabilities across Bhagirath Palace for hard-to-find parts.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="industries" class="industries section-padding bg-light">
-        <div class="container">
-            <div class="section-title scroll-fade">
-                <h2>Industries We Serve</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="industry-flex scroll-fade">
-                <div class="industry-tag"><i class="fas fa-industry"></i> Heavy Manufacturing</div>
-                <div class="industry-tag"><i class="fas fa-box"></i> Packaging Plants</div>
-                <div class="industry-tag"><i class="fas fa-tshirt"></i> Textile Machinery</div>
-                <div class="industry-tag"><i class="fas fa-tools"></i> CNC Workshops</div>
-                <div class="industry-tag"><i class="fas fa-robot"></i> Machine Builders</div>
-            </div>
-        </div>
-    </section>
-
-    <section id="faq" class="faq section-padding">
-        <div class="container">
-            <div class="section-title scroll-fade">
-                <h2>Frequently Asked Questions</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="faq-container scroll-fade">
-                <div class="faq-item">
-                    <button class="faq-question">Do you supply genuine NSK and Casappa? <i class="fas fa-chevron-down"></i></button>
-                    <div class="faq-answer">
-                        <p>Yes, we prioritize quality and only source 100% genuine industrial components from trusted networks.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">Do you deliver outside Delhi NCR? <i class="fas fa-chevron-down"></i></button>
-                    <div class="faq-answer">
-                        <p>Absolutely. We have a robust logistics network for fast delivery across India.</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <button class="faq-question">Can I get a wholesale rate for bulk collets? <i class="fas fa-chevron-down"></i></button>
-                    <div class="faq-answer">
-                        <p>Yes, we specialize in bulk B2B supply. Contact us via WhatsApp for a custom quotation.</p>
+                    <div class="about-stats">
+                        <div class="stat-box counter-container">
+                            <i class="fas fa-industry"></i>
+                            <h4 class="counter" data-target="1000">0</h4>
+                            <p>Factories Served</p>
+                        </div>
+                        <div class="stat-box counter-container">
+                            <i class="fas fa-cogs"></i>
+                            <h4 class="counter" data-target="50">0</h4>
+                            <p>Global Brands</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="contact section-padding bg-dark">
-        <div class="container">
-            <div class="section-title scroll-fade">
-                <h2>Request a Quote</h2>
-                <div class="underline"></div>
-            </div>
-            <div class="contact-grid">
-                <div class="contact-info scroll-fade">
-                    <h3>Get in Touch</h3>
-                    <p>Need a bulk quote for Casappa pumps, Fanuc fans, or OMRON sensors? Reach out today.</p>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
-                        <span>Delhi NCR (Bhagirath Palace Market), India</span>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
-                        <span>+91 98765 43210</span>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
-                        <span>+91 98765 43210</span>
-                    </div>
-                    <div class="info-item">
-                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
-                        <span>sales@ncrautomation.com</span>
-                    </div>
+        <section id="products" class="products section-padding bg-light">
+            <div class="container">
+                <div class="section-title scroll-fade">
+                    <h2>Featured Products</h2>
+                    <div class="underline"></div>
+                    <p>High-performance automation equipment for uninterrupted manufacturing.</p>
                 </div>
 
-                <form id="contactForm" class="contact-form scroll-fade delay-1">
-                    <div class="form-group">
-                        <label for="name">Company / Contact Name</label>
-                        <input type="text" id="name" required placeholder="Enter your name">
+                <div class="search-container scroll-fade">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="productSearch" aria-label="Search Products" placeholder="Search M12, NSK, Pump, Fanuc...">
+                </div>
+
+                <div class="product-grid" id="productGrid">
+                    <div class="product-card scroll-fade" data-name="omron proximity sensors m12 plug-in pnp no metal detection">
+                        <h3>OMRON Proximity Sensors</h3>
+                        <ul class="product-specs">
+                            <li><strong>Type:</strong> M12, Plug-in</li>
+                            <li><strong>Output:</strong> PNP NO</li>
+                            <li><strong>Application:</strong> Metal detection</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
                     </div>
-                    <div class="form-group">
-                        <label for="phone">Phone / WhatsApp Number</label>
-                        <input type="tel" id="phone" required placeholder="Enter your phone number">
+
+                    <div class="product-card scroll-fade delay-1" data-name="casappa pump hydraulic gear pumps industrial coolant pumps">
+                        <h3>Casappa & Industrial Pumps</h3>
+                        <ul class="product-specs">
+                            <li><strong>Brand:</strong> Casappa (Italy)</li>
+                            <li><strong>Type:</strong> Gear & Hydraulic Pumps</li>
+                            <li><strong>Application:</strong> Heavy Machinery</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
                     </div>
-                    <div class="form-group">
-                        <label for="message">Part Numbers / Requirements</label>
-                        <textarea id="message" rows="4" required placeholder="E.g., NSK 6205 Bearing - Qty 100, Casappa Pump PLP20"></textarea>
+
+                    <div class="product-card scroll-fade delay-2" data-name="nsk bearings fag bearings precision roller ball bearings">
+                        <h3>NSK & FAG Bearings</h3>
+                        <ul class="product-specs">
+                            <li><strong>Brand:</strong> NSK, FAG, SKF</li>
+                            <li><strong>Type:</strong> Precision Ball Bearings</li>
+                            <li><strong>Application:</strong> High-speed Spindles</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block btn-lg">Send Inquiry</button>
-                    <div id="formSuccess" class="success-msg"><i class="fas fa-check-circle"></i> Inquiry submitted successfully!</div>
-                </form>
+
+                    <div class="product-card scroll-fade delay-3" data-name="fanuc drive fan sanyo denki cooling fan dc24v cnc spares">
+                        <h3>Fanuc & Cooling Fans</h3>
+                        <ul class="product-specs">
+                            <li><strong>Brand:</strong> Fanuc, Sanyo Denki</li>
+                            <li><strong>Voltage:</strong> DC 24V / 48V</li>
+                            <li><strong>Usage:</strong> CNC Drive Cooling</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
+                    </div>
+
+                    <div class="product-card scroll-fade" data-name="industrial collets er16 er25 er32 chuck tooling machine parts">
+                        <h3>Industrial Collets</h3>
+                        <ul class="product-specs">
+                            <li><strong>Types:</strong> ER16, ER25, ER32</li>
+                            <li><strong>Material:</strong> High-Grade Spring Steel</li>
+                            <li><strong>Market:</strong> Chawri Bazar Stock</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
+                    </div>
+
+                    <div class="product-card scroll-fade delay-1" data-name="ferrite ring magnets industrial permanent magnets magnetic components">
+                        <h3>Ferrite Ring Magnets</h3>
+                        <ul class="product-specs">
+                            <li><strong>Shape:</strong> Ring, Block, Disk</li>
+                            <li><strong>Grade:</strong> Strong Industrial Ferrite</li>
+                            <li><strong>Usage:</strong> Motors & Sensors</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
+                    </div>
+
+                    <div class="product-card scroll-fade delay-2" data-name="plc components modules cpus io communication cables logic control">
+                        <h3>PLC Components</h3>
+                        <ul class="product-specs">
+                            <li><strong>Brand:</strong> OMRON & Global Brands</li>
+                            <li><strong>Quality:</strong> 100% Tested</li>
+                            <li><strong>Application:</strong> Logic Control</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
+                    </div>
+
+                    <div class="product-card scroll-fade delay-3" data-name="industrial relays contactors solid state electromechanical 24v 415v">
+                        <h3>Relays & Contactors</h3>
+                        <ul class="product-specs">
+                            <li><strong>Voltage:</strong> 24V to 415V</li>
+                            <li><strong>Type:</strong> Solid State / Mech</li>
+                            <li><strong>Usage:</strong> Power Switching</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary btn-sm btn-block">Inquire Bulk Rate</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="industries" class="industries section-padding">
+            <div class="container">
+                <div class="section-title scroll-fade">
+                    <h2>Industries We Serve</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="industry-flex scroll-fade">
+                    <div class="industry-tag"><i class="fas fa-industry"></i> Heavy Manufacturing</div>
+                    <div class="industry-tag"><i class="fas fa-box"></i> Packaging Plants</div>
+                    <div class="industry-tag"><i class="fas fa-tshirt"></i> Textile Machinery</div>
+                    <div class="industry-tag"><i class="fas fa-tools"></i> CNC Workshops</div>
+                    <div class="industry-tag"><i class="fas fa-robot"></i> Machine Builders</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq section-padding bg-light">
+            <div class="container">
+                <div class="section-title scroll-fade">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="faq-container scroll-fade" itemscope itemtype="https://schema.org/FAQPage">
+                    
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <button class="faq-question" aria-expanded="false"><span itemprop="name">Do you supply genuine NSK and Casappa?</span> <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Yes, we prioritize quality and only source 100% genuine industrial components from certified supply chains and trusted networks.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <button class="faq-question" aria-expanded="false"><span itemprop="name">Do you deliver outside Delhi NCR?</span> <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Absolutely. We maintain a robust logistics network enabling fast, secure delivery across all major industrial zones in India.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                        <button class="faq-question" aria-expanded="false"><span itemprop="name">Can I get a wholesale rate for bulk collets?</span> <i class="fas fa-chevron-down"></i></button>
+                        <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                            <p itemprop="text">Yes, we specialize in bulk B2B supply. Please utilize our contact form or WhatsApp for a customized bulk quotation.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-padding bg-dark">
+            <div class="container">
+                <div class="section-title scroll-fade">
+                    <h2>Request a Quote</h2>
+                    <div class="underline"></div>
+                    <p>Partner with us for reliable, cost-effective automation sourcing.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info scroll-fade">
+                        <h3>Contact Information</h3>
+                        <p>Our sales engineering team is ready to assist with your BOM requirements.</p>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <span>Bhagirath Palace Market, Delhi NCR, India</span>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                            <span><a href="tel:+919876543210">+91 98765 43210</a></span>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                            <span><a href="mailto:sales@ncrautomation.com">sales@ncrautomation.com</a></span>
+                        </div>
+                    </div>
+
+                    <form id="contactForm" class="contact-form scroll-fade delay-1" novalidate>
+                        <div class="form-group">
+                            <label for="name">Company / Contact Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            <span class="error-msg" id="nameError">Please enter a valid name.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone / WhatsApp Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="E.g., +91 9876543210">
+                            <span class="error-msg" id="phoneError">Please enter a valid phone number.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Part Numbers / Requirements *</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="E.g., NSK 6205 Bearing - Qty 100"></textarea>
+                            <span class="error-msg" id="messageError">Requirement details cannot be empty.</span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="submitBtn">
+                            <span>Send Inquiry</span>
+                        </button>
+                        <div id="formSuccess" class="success-msg" role="alert">
+                            <i class="fas fa-check-circle"></i> Inquiry submitted successfully! Our team will contact you shortly.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container footer-grid">
             <div class="footer-col">
                 <h4>NCR Automation</h4>
-                <p>Your trusted B2B partner for OMRON, NSK, and Casappa components in Delhi NCR.</p>
+                <p>Your certified B2B partner for industrial sensors, bearings, and hydraulic components.</p>
+                <div class="social-links mt-3">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                </div>
             </div>
             <div class="footer-col">
-                <h4>Products</h4>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><i class="fas fa-angle-right"></i> <a href="#about">About Us</a></li>
+                    <li><i class="fas fa-angle-right"></i> <a href="#products">Products</a></li>
+                    <li><i class="fas fa-angle-right"></i> <a href="#industries">Industries</a></li>
+                    <li><i class="fas fa-angle-right"></i> <a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Our Products</h4>
                 <ul>
                     <li><i class="fas fa-angle-right"></i> <a href="#products">OMRON Sensors</a></li>
                     <li><i class="fas fa-angle-right"></i> <a href="#products">NSK Bearings</a></li>
                     <li><i class="fas fa-angle-right"></i> <a href="#products">Casappa Pumps</a></li>
-                    <li><i class="fas fa-angle-right"></i> <a href="#products">Fanuc Fans</a></li>
+                    <li><i class="fas fa-angle-right"></i> <a href="#products">Fanuc CNC Spares</a></li>
                 </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe for wholesale market updates.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Email Address" required aria-label="Email for newsletter">
+                    <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                </form>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; <span id="year"></span> NCR Industrial Automation. All Rights Reserved.</p>
+            <p>&copy; <span id="year"></span> NCR Industrial Automation. All Rights Reserved. | Designed for Performance</p>
         </div>
     </footer>
 
-    <a href="https://wa.me/919876543210?text=Hello,%20I%20have%20an%20inquiry%20regarding%20automation%20components." class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <a href="https://wa.me/919876543210?text=Hello,%20I%20have%20an%20inquiry%20regarding%20automation%20components." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
 
-    <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+    <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
 
-    <script src="app.js"></script>
+    <script src="app.js" defer></script>
 </body>
 </html>
